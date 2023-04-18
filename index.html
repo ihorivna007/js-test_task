@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <script src="app.js" defer></script>
+  <title>Test</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Test</h2>
+
+    <label for="new-pair" class="label">Name/Value Pair</label>
+    <input type="text" id="new-pair" class="textbox new-pair">
+    <input type="button" class="button button-add" value="Add">
+    
+    <p class="error"></p>
+
+    <label for="list-of-pairs" class="label">Name/Value Pair List</label>
+    
+    <ul class="textbox list-of-pairs" id="list-of-pairs">
+      <li class="pair">Hello=World</li>
+      <li class="pair">Happy=Coding</li>
+    </ul>
+
+    <input type="button" class="button button-sort-name" value="Sort by Name">
+    <input type="button" class="button button-sort-value" value="Sort by Value">
+    <input type="button" class="button button-delete" value="Delete">
+    <input type="button" class="button button-xml" value="Show as XML">
+
+  </div>  
+</body>
+</html>
